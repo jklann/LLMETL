@@ -1,0 +1,12 @@
+Column Name,Data Type,Nullable?,Primary key?,Expected value
+PATIENT_IDE,VARCHAR(200),NO,YES,The patient identifier from the source file
+PATIENT_IDE_SOURCE,VARCHAR(50),NO,YES,Description of the type of identifier
+PATIENT_NUM,INT,NO,NO,Unique patient number
+PATIENT_IDE_STATUS,VARCHAR(50),YES,NO,"The value ""A"""
+PROJECT_ID,VARCHAR(50),NO,YES,"The value ""@"""
+UPLOAD_DATE,DATETIME,YES,NO,Today's date
+UPDATE_DATE,DATETIME,YES,NO,Today's date
+DOWNLOAD_DATE,DATETIME,YES,NO,Today's date
+IMPORT_DATE,DATETIME,YES,NO,Today's date
+SOURCESYSTEM_CD,VARCHAR(50),YES,NO,Source of identifier
+UPLOAD_ID,INT,YES,NO,"The value ""1"""
